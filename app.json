@@ -4,6 +4,10 @@
     "worker": {
       "quantity": 1,
       "size": "free"
+    },
+    "worker1": {
+      "quantity": 1,
+      "size": "free"
     }
   },
   "addons": [{
